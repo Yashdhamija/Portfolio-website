@@ -37,14 +37,14 @@ main {
     font-weight: 400;
 
     &.name-heading {
-      font-size: 4rem;
+      font-size: 5rem;
       color: #fff;
     }
 
     &.skills-heading {
-      margin-bottom: 2rem;
+      //   margin-bottom: 1rem;
       padding: 0.2rem 1rem;
-      background: rgba(lighten($primary-color, 2), 0.5);
+      background: rgba(lighten($primary-color, 2), 0.6);
     }
 
     .lastname {

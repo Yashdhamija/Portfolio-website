@@ -29,6 +29,15 @@ $background-opacity: 0.8;
   }
 }
 
+//set text color based on background light
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
 // media mixins
 
 @mixin mediaS {

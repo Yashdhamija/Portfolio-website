@@ -99,6 +99,10 @@ main {
     }
   }
 
+  .bio-text {
+    font-size: 1.1rem;
+  }
+
   .job-1 {
     grid-area: job1;
   }
@@ -111,6 +115,10 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    h3 {
+      // background: darken($primary-color, 3);
+    }
   }
 }
 

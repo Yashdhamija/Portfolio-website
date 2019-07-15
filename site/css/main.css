@@ -170,6 +170,8 @@ main {
     font-size: 1.5rem; }
     .about-info .bio .text-secondary {
       color: #eece1a; }
+  .about-info .bio-text {
+    font-size: 1.1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
